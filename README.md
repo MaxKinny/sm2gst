@@ -1,5 +1,3 @@
-![image](https://github.com/MaxKinny/tsg2ms/assets/33459391/0f779448-ba55-4475-8e37-73e6e4ff1eb2)![image](https://github.com/MaxKinny/app_TableStructureGraph2MergingSet/assets/33459391/7248e833-5388-4065-9623-74a4cd72ac69)
-
 # Table Structure Graph (TSG) to Merging Set (MS)
 <img src="https://github.com/MaxKinny/tsg2ms/assets/33459391/31449583-0684-43cf-91b7-fc0a7794eb1e" width="800">
 
