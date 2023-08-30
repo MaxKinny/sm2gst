@@ -22,13 +22,13 @@ row_adj_matrix = [[...], ...]
 col_adj_matrix = [[...], ...]
 
 # request results
-url = f"http://<will opening soon...>.gz.apigw.tencentcs.com/release/tsg2ms"
+url = f"http://<is opening soon...>.gz.apigw.tencentcs.com/release/tsg2ms"
 data = {"data1": row_matrix, "data2": col_matrix}
 headers = {
   "Content-Type": "application/json",
   "Accept": "*/*",
   "Cache-Control": "no-cache",
-  "Host": "<will opening soon...>.gz.apigw.tencentcs.com",
+  "Host": "<is opening soon...>.gz.apigw.tencentcs.com",
   "Accept-Encoding": "gzip, deflate, br",
   "Connection": "keep-alive",
   "User-Agent": "apifox/1.0.0 (https://www.apifox.cn)",
