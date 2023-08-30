@@ -1,4 +1,4 @@
-![image](https://github.com/MaxKinny/app_TableStructureGraph2MergingSet/assets/33459391/7248e833-5388-4065-9623-74a4cd72ac69)
+![image](https://github.com/MaxKinny/tsg2ms/assets/33459391/0f779448-ba55-4475-8e37-73e6e4ff1eb2)![image](https://github.com/MaxKinny/app_TableStructureGraph2MergingSet/assets/33459391/7248e833-5388-4065-9623-74a4cd72ac69)
 
 # Table Structure Graph (TSG) to Merging Set (MS)
 <img src="https://github.com/MaxKinny/tsg2ms/assets/33459391/31449583-0684-43cf-91b7-fc0a7794eb1e" width="800">
@@ -46,7 +46,7 @@ elif json_data["status"] == "success":
 ```
 
 # An APP for testing our API
-<img src="https://github.com/MaxKinny/tsg2ms/assets/33459391/ab94549c-6741-4c55-be03-7df4a8b4da7a" width="400">
+<img src="https://github.com/MaxKinny/tsg2ms/assets/33459391/574a47f7-a21e-49ee-b4fe-91444c171c12" width="400">
 
 #### Description:
 Draw your table on paper and annotate its TSG using our tool. After that, click the "Merging Set" button, this tool will compute the merging set of your table!
