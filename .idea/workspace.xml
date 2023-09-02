@@ -36,6 +36,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -49,7 +50,8 @@
       <updated>1691652513787</updated>
       <workItem from="1691652518106" duration="717000" />
       <workItem from="1692089414733" duration="247000" />
-      <workItem from="1693372054170" duration="1229000" />
+      <workItem from="1693372054170" duration="1965000" />
+      <workItem from="1693376172018" duration="1152000" />
     </task>
     <task id="LOCAL-00001" summary="update examples">
       <option name="closed" value="true" />
