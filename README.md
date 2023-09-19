@@ -60,3 +60,9 @@ https://github.com/MaxKinny/app_TableStructureGraph2MergingSet/assets/33459391/6
 
 # Report Bugs
 If you have tables with inconsistent merging sets from the tool, there may be implementation bugs in our API program. Please raise an issue and upload images and JSON data for your examples. Thanks a lot!
+
+# Authorship
+```
+Fan Yang, maxgundam@hotmail.com, https://scholar.google.com/citations?user=MZGxAVcAAAAJ&hl=zh-CN
+Jiancong Ye, jcye1483@outlook.com, https://scholar.google.com/citations?user=_a19A1EAAAAJ&hl=zh-CN
+```
