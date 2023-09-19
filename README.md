@@ -4,7 +4,7 @@
 <img src="https://github.com/MaxKinny/tsg2ms/assets/33459391/31449583-0684-43cf-91b7-fc0a7794eb1e" width="800">
 
 # The definition of table structure
-### Merging Set (MS): The definition of table structure
+### Merging Set (MS): 
 
 # The expression of table structure
 ### Description:
