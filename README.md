@@ -63,6 +63,11 @@ If you have tables with inconsistent merging sets from the tool, there may be im
 
 # Authorship
 ```
-Fan Yang, maxgundam@hotmail.com, https://scholar.google.com/citations?user=MZGxAVcAAAAJ&hl=zh-CN
-Jiancong Ye, jcye1483@outlook.com, https://scholar.google.com/citations?user=_a19A1EAAAAJ&hl=zh-CN
+1. Fan Yang, maxgundam@hotmail.com, https://scholar.google.com/citations?user=MZGxAVcAAAAJ&hl=zh-CN
+2. Jiancong Ye, jcye1483@outlook.com, https://scholar.google.com/citations?user=_a19A1EAAAAJ&hl=zh-CN
+```
+# Author Contributions
+```
+1. 提出总体的算法思路、提出了拓扑型、提出利用同构比较拓扑型与子图、提出了轨道法、提出了轨道法的2个判别条件、提出了轨道法求取的框架(行列优先级拓扑排序+序列跳跃)、提出1阶与2阶行列优先级、提出了倒转行列标签后可重复利用已有代码求另一方向的结果；编写5%的代码。
+2. 提出利用垫顶点将图的左右給pad上、提出利用轨道法找出空缺后填入占位顶点这样就能把表格填补为规整的表格、想到了轨道法判别条件1的反例、想到了如何将行列优先级融入拓扑序的算法；编写95%的代码。
 ```
