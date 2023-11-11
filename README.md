@@ -13,6 +13,8 @@ Directed Acyclic Graph (DAG) with 2 kinds of edge labels ("row" and "column"), w
 ### Diagram:
 <img src="https://github.com/MaxKinny/tsg2ms/assets/33459391/118f8b62-c3f5-4ebf-867a-f50fdde2e81b" width="800">
 
+<img src="https://github.com/MaxKinny/tsg2ms/assets/33459391/036ee562-2acc-49e2-bd18-ae24fc36ffe2" width="800">
+
 # Web API
 ```python
 import requests
