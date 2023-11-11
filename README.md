@@ -1,7 +1,7 @@
 ![image](https://github.com/MaxKinny/tsg2ms/assets/33459391/a3c37014-0ced-4ff7-a07c-f1a0b486b7ae)
 
 # Table Structure Graph (TSG) to Merging Set (MS)
-<img src="https://github.com/MaxKinny/tsg2ms/assets/33459391/31449583-0684-43cf-91b7-fc0a7794eb1e" width="800">
+<img src="https://github.com/MaxKinny/tsg2ms/assets/33459391/036ee562-2acc-49e2-bd18-ae24fc36ffe2" width="800">
 
 # The definition of table structure
 ### Merging Set (MS): 
@@ -12,8 +12,6 @@ Directed Acyclic Graph (DAG) with 2 kinds of edge labels ("row" and "column"), w
 
 ### Diagram:
 <img src="https://github.com/MaxKinny/tsg2ms/assets/33459391/118f8b62-c3f5-4ebf-867a-f50fdde2e81b" width="800">
-
-<img src="https://github.com/MaxKinny/tsg2ms/assets/33459391/036ee562-2acc-49e2-bd18-ae24fc36ffe2" width="800">
 
 # Web API
 ```python
