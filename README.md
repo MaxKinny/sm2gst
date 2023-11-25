@@ -46,12 +46,16 @@ elif json_data["status"] == "success":
 ```
 
 # An APP for testing our API
-<img src="https://github.com/MaxKinny/tsg2ms/assets/33459391/574a47f7-a21e-49ee-b4fe-91444c171c12" width="400">
+<img src="https://github.com/MaxKinny/tsg2ms/assets/33459391/d90045c5-09c7-4e0d-8168-51f5a1b6a593" width="400">
 
 #### Description:
 Draw your table on paper and annotate its TSG using our tool. After that, click the "Merging Set" button, this tool will compute the merging set of your table!
 
 #### Download Links:
+**Version 2 (Recommended)**
+https://doi.org/10.6084/m9.figshare.24633588.v1
+
+**Version 1 (Deprecated)**
 [Google Drive](https://drive.google.com/file/d/1-NRQYTQiAaJEibMXyu_ogzInTh4taogB/view?usp=sharing), [百度网盘](https://pan.baidu.com/s/1xrgwRoFnWUdLB8c11fPQBA?pwd=1234)
 
 #### The demonstration video (with voice):
