@@ -17,31 +17,51 @@ Directed Acyclic Graph (DAG) with 2 kinds of edge labels ("row" and "column"), w
 import requests
 import json
 
-row_adj_matrix = [[...], ...]
-col_adj_matrix = [[...], ...]
 
-# request results
-url = f"http://<is opening soon...>.gz.apigw.tencentcs.com/release/tsg2ms"
-data = {"data1": row_matrix, "data2": col_matrix}
-headers = {
-  "Content-Type": "application/json",
-  "Accept": "*/*",
-  "Cache-Control": "no-cache",
-  "Host": "<is opening soon...>.gz.apigw.tencentcs.com",
-  "Accept-Encoding": "gzip, deflate, br",
-  "Connection": "keep-alive",
-  "User-Agent": "apifox/1.0.0 (https://www.apifox.cn)",
-}
-r = requests.post(url, headers=headers, data=json.dumps(data))
-json_data = r.json()
-if json_data.get("result") is not None:
-  json_data = json_data["result"]
+def get_merging_set(row_adj_matrix, col_adj_matrix, flags):
+    # request results
+    url = f"http://<is opening soon...>.gz.apigw.tencentcs.com/release/tsg2ms"
+    data = {"matrix1": row_adj_matrix, "matrix2": col_adj_matrix, "flags": flags}
+    headers = {
+        "Content-Type": "application/json",
+        "Accept": "*/*",
+        "Cache-Control": "no-cache",
+        "Host": "<is opening soon...>.gz.apigw.tencentcs.com",
+        "Accept-Encoding": "gzip, deflate, br",
+        "Connection": "keep-alive",
+        "User-Agent": "apifox/1.0.0 (https://www.apifox.cn)",
+    }
+    r = requests.post(url, headers=headers, data=json.dumps(data))
+    json_data = r.json()
+    return json_data.get("result")
 
-# show results
-if json_data["status"] == "failure":
-  print("Invalid Table or Graph!", json_data.get("message"))
-elif json_data["status"] == "success":
-  print(json_data)
+
+if __name__ == '__main__':
+    ##################### Inputs #############################
+    row_adj_matrix = [[0, 1, -9999, -9999],
+                      [-9999, 0, -9999, -9999],
+                      [-9999, -9999, 0, 1],
+                      [-9999, -9999, -9999, 0]]
+
+    col_adj_matrix = [[0, -9999, 1, -9999],
+                      [-9999, 0, -9999, 1],
+                      [-9999, -9999, 0, -9999],
+                      [-9999, -9999, -9999, 0]]
+
+    flags = {'gt_or_prediction': 'gt',
+             'isFAS': False,
+             'isDeleteConflicts': False,
+             'isDetectVacancy': True,
+             'isComputeSL': True}
+    ##########################################################
+
+    api_return = get_merging_set(row_adj_matrix, col_adj_matrix, flags)
+
+    # show results
+    if api_return["status"] == "failure":
+        print("Invalid Table or Graph!", api_return.get("message"))
+    elif api_return["status"] == "success":
+        print(api_return)
 ```
 
 # An APP for testing our API
