@@ -72,7 +72,7 @@ Draw your table on paper and annotate its TSG using our tool. After that, click 
 
 #### Download Links:
 **Version 2 (Recommended)**
-https://doi.org/10.6084/m9.figshare.24633588.v2
+https://doi.org/10.6084/m9.figshare.24633588.v3
 
 **Version 1 (Deprecated)**
 [Google Drive](https://drive.google.com/file/d/1-NRQYTQiAaJEibMXyu_ogzInTh4taogB/view?usp=sharing), [百度网盘](https://pan.baidu.com/s/1xrgwRoFnWUdLB8c11fPQBA?pwd=1234)
