@@ -52,6 +52,7 @@ if __name__ == '__main__':
              'isFAS': False,
              'isDeleteConflicts': False,
              'isDetectVacancy': True,
+             'isMIP': False,
              'isComputeSL': True}
     ##########################################################
 
