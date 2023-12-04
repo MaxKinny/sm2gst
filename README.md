@@ -1,7 +1,8 @@
 ![image](https://github.com/MaxKinny/tsg2ms/assets/33459391/a3c37014-0ced-4ff7-a07c-f1a0b486b7ae)
 
 # Table Structure Graph (TSG) to Merging Set (MS)
-<img src="https://github.com/MaxKinny/tsg2ms/assets/33459391/fe29bcc8-23ca-4e35-bb96-d809acae8d65" width="800">
+<img src="https://github.com/MaxKinny/tsg2ms/assets/33459391/48e9e3fa-6960-486b-94a1-dce25773e880" width="800">
+
 # The definition of table structure
 ### Merging Set (MS): 
 
