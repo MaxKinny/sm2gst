@@ -82,15 +82,9 @@ https://doi.org/10.6084/m9.figshare.24633588.v3
 #### The demonstration video (with voice):
 https://github.com/MaxKinny/app_TableStructureGraph2MergingSet/assets/33459391/677769c7-4028-4d09-a9f9-a6b58c303bf3
 
-
 # Report Bugs
 If you have tables with inconsistent merging sets from the tool, there may be implementation bugs in our API program. Please raise an issue and upload images and JSON data for your examples. Thanks a lot!
 
-# Authorship
-```
-1. Fan Yang, maxgundam@hotmail.com, https://scholar.google.com/citations?user=MZGxAVcAAAAJ&hl=zh-CN
-2. Jiancong Ye, jcye1483@outlook.com, https://scholar.google.com/citations?user=_a19A1EAAAAJ&hl=zh-CN
-```
 # Author Contributions
 ```
 1. 提出总体的算法思路、提出了拓扑型、提出利用同构比较拓扑型与子图、提出了轨道法用于判别是否存在空缺、提出了轨道法的2个判别条件、提出了轨道法求取的框架(行列优先级拓扑排序+序列跳跃)、提出1阶与2阶行列优先级、提出了倒转行列标签后可重复利用已有代码求另一方向的结果；编写5%的代码。
